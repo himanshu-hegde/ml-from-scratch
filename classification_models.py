@@ -1,3 +1,5 @@
+# File Name: classification_models.py
+
 import numpy as np
 import pandas as pd
 import scipy as sp
@@ -110,7 +112,8 @@ class Dataset:
 
     def heart_classication_dataset(
         self,
-        data_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Python VS Code\\ML From Scratch\\Datasets\\heart_classification.csv",
+        # data_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Python VS Code\\ML From Scratch\\Datasets\\heart_classification.csv",
+        data_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Machine Learning Models From Scratch\\ML From Scratch\\Datasets\\heart_classification.csv",
     ) -> Union[pd.DataFrame, pd.DataFrame]:
         """
         Loads the heart classification dataset from a CSV file, preprocesses it,

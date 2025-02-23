@@ -1,3 +1,5 @@
+# File Name: clustering.py
+
 import numpy as np
 import pandas as pd
 import scipy as sp
@@ -32,7 +34,8 @@ class Dataset:
 
     def credit_card_dataset(
         self,
-        data_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Python VS Code\\ML From Scratch\\Datasets\\clustering credit card dataset\\CC GENERAL.csv",
+        # data_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Python VS Code\\ML From Scratch\\Datasets\\clustering credit card dataset\\CC GENERAL.csv",
+        data_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Machine Learning Models From Scratch\\ML From Scratch\\Datasets\\clustering credit card dataset\\CC GENERAL.csv",
         scale_bool: bool = True,
     ) -> pd.DataFrame:
         """

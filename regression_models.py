@@ -1,3 +1,5 @@
+# File Name: regression_models.py
+
 import numpy as np
 import pandas as pd
 import scipy as sp
@@ -112,7 +114,8 @@ class Dataset:
 
     def bike_demand_dataset(
         self,
-        bike_demand_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Python VS Code\\ML From Scratch\\Datasets\\bike-sharing-demand\\train.csv",
+        # bike_demand_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Python VS Code\\ML From Scratch\\Datasets\\bike-sharing-demand\\train.csv",
+        bike_demand_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Machine Learning Models From Scratch\\ML From Scratch\\Datasets\\bike-sharing-demand\\train.csv",
     ) -> pd.DataFrame:
         """
         Retrieves and preprocesses the bike demand dataset.
@@ -132,7 +135,8 @@ class Dataset:
 
     def kc_housing_dataset(
         self,
-        kc_house_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Python VS Code\\ML From Scratch\\Datasets\\kc_house_data_regression.csv",
+        # kc_house_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Python VS Code\\ML From Scratch\\Datasets\\kc_house_data_regression.csv",
+        kc_house_path: str = "C:\\Users\\himan\\OneDrive\\Documents\\Study Docs\\Machine Learning Models From Scratch\\ML From Scratch\\Datasets\\kc_house_data_regression.csv",
     ) -> pd.DataFrame:
         """
         Retrieves and preprocesses the kc_house dataset.
